@@ -102,6 +102,70 @@ nav a {
     color:#f9b936
 }
 
+/* Hero */
+.hero{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../images/conference-ii.jpg');
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: cover;
+    min-height: 100%;
+    font-family: 'Cabin', sans-serif;
+    padding: 3em 0em;  
+}
+
+.hero-intro {
+    color: #fff;
+    width: 88%;
+    margin: 0 auto;
+
+}
+
+.hero-intro h1 {
+    font-family: 'Lora', serif;
+    font-size: 250%;
+}
+.hero-intro p {
+    font-size: 115%;
+}
+.hero-intro a {
+    color: #fff;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #f9b936;
+    text-transform: uppercase;
+}
+form {
+    background: #fff;
+    margin: 2em auto 0em auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em;
+    border-radius: 5px;
+    width: 88%;
+    box-sizing: border-box;
+}
+form label {
+    padding-bottom: 0.3em;
+    font-size: 90%;
+    color: #707079;
+}
+form input, form select {
+    margin-bottom: 1em;
+    height: 2.5em;
+    padding-left: 0.7em;
+    font-weight: 500;
+    font-size: 103%;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    border: 1px solid rgba(0, 0, 0, .3);
+    background: #fff;
+    border-radius: 2px;
+}
+form input[type="submit" i] {
+    color: #f9b936;
+    border: 1px solid #f9b936;
+    margin: 1em 0em 0em 0em;
+}
+
 /* .nav-links {
     padding: 1em 0em;
 } */
@@ -135,6 +199,16 @@ nav a {
     .nav-links a {
         /* padding-bottom: 0.6em; */
         padding: 0em 0em 0.2em 1.5em;
+    }
+
+    /* Hero */
+    .hero{
+        min-height: 0;
+        max-height: 100%;
+        padding: 3em 0em;
+    }
+    .hero-intro, form{
+        width: 80%;
     }
 }
 
@@ -173,6 +247,21 @@ nav a {
         width: 80%;
     }
 
+    /* Hero */
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .hero-intro {
+        width: 40%;
+        margin: 0;
+    }
+    form{
+        width: 35%;
+        margin: 0;
+    }
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -195,6 +284,17 @@ nav a {
         justify-content: space-around;
     }
 
+      /* Hero */
+      .hero{
+        justify-content: space-evenly;
+    }
+    .hero-intro {
+        width: 35%;
+    }
+    form{
+        width: 25%;
+    }
+
 }
 
 @media only screen and (min-width: 2560px) {
@@ -213,4 +313,17 @@ nav a {
     nav img {
         width: 7%;
     }
+
+      /* Hero */
+      .hero{
+        justify-content: center;
+    }
+    .hero-intro {
+        width: 18%;
+        margin-right: 6em;
+    }
+    form{
+        width: 12%;
+        margin-left: 6em;
+    }    
 }

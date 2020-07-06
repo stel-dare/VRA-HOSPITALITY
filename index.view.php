@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volta River Authority | Hospitality</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Cabin&family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -40,12 +40,36 @@
             </div>
         </nav>
     </header>
-    <section>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dui vivamus arcu felis bibendum ut tristique et. Congue mauris rhoncus aenean vel elit scelerisque. Arcu dui vivamus arcu felis. Nunc faucibus a pellentesque sit. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Ultrices vitae auctor eu augue ut lectus arcu. Nisi quis eleifend quam adipiscing vitae proin. Nec feugiat nisl pretium fusce id velit ut tortor. Eget sit amet tellus cras adipiscing enim eu. Eleifend mi in nulla posuere sollicitudin aliquam ultrices.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dui vivamus arcu felis bibendum ut tristique et. Congue mauris rhoncus aenean vel elit scelerisque. Arcu dui vivamus arcu felis. Nunc faucibus a pellentesque sit. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Ultrices vitae auctor eu augue ut lectus arcu. Nisi quis eleifend quam adipiscing vitae proin. Nec feugiat nisl pretium fusce id velit ut tortor. Eget sit amet tellus cras adipiscing enim eu. Eleifend mi in nulla posuere sollicitudin aliquam ultrices.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dui vivamus arcu felis bibendum ut tristique et. Congue mauris rhoncus aenean vel elit scelerisque. Arcu dui vivamus arcu felis. Nunc faucibus a pellentesque sit. Quisque non tellus orci ac auctor augue mauris. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Enim facilisis gravida neque convallis a cras semper auctor. Ultrices vitae auctor eu augue ut lectus arcu. Nisi quis eleifend quam adipiscing vitae proin. Nec feugiat nisl pretium fusce id velit ut tortor. Eget sit amet tellus cras adipiscing enim eu. Eleifend mi in nulla posuere sollicitudin aliquam ultrices.
+    <section class="hero">
+        <div class="hero-intro">
+        <h1>Rent Our Conference Rooms For That Perfect Executive Meeting.</h1>
+        <p>We have a lot of facilities and services available for rental at various locations that provide a serene environment to host your events.</p>
+        <a href="#">Discover Now</a>
+        </div>
+        <form action="#">
+            <label for="check-in">Check In Date:</label>
+            <input type="date" id="check-in" name="check-in-date">
+            <label for="check-out">Check Out Date:</label>
+            <input type="date" id="check-out" name="check-out-date">
+            <label for="guest-number">Number of Guest:</label>
+            <input type="number" id="guest-number" name="guest-number">
+            <label for="facility">Facility:</label>
+            <select id="facility" name="facility">
+                <option value="conference-room">Conference Room</option>
+                <option value="swimming-pool">Swimming Pool</option>
+                <option value="restaurant">Restaurant</option>
+                <option value="guest-house">Guest Room</option>
+            </select>
+            <label for="location">Location:</label>
+            <select id="location" name="location">
+                <option value="accra">Accra</option>
+                <option value="akosombo">Akosombo</option>
+                <option value="akusei">Akusei</option>
+                <option value="takoradi">Takoradi</option>
+            </select>
+            <input type="submit" value="Check Availability">
+        </form>
     </section>
-
    <script src="js/scripts.js"></script> 
 </body>
 </html>
