@@ -40,6 +40,7 @@
             </div>
         </nav>
     </header>
+    <!-- Start:Hero -->
     <section class="hero">
         <div class="hero-intro">
         <h1>Rent Our Conference Rooms For That Perfect Executive Meeting.</h1>
@@ -69,6 +70,26 @@
             </select>
             <input type="submit" value="Check Availability">
         </form>
+    </section>
+    <!-- Start:About -->
+    <section class="about">
+    <div class="about-intro">
+    <h2>Enjoy a luxury experience with us.</h2>
+    <p>We provide you with ulttra modern facilities that a readily available and cater for
+     you and your company's needs at an affordable price. With our adherence to both local
+      and international hospitality laws and our immaculate customer service record, you 
+      are assured of your money's worth. Our faciltues include conference rooms, restaurants,
+       swimming pools and guest rooms at various locations across the country making us the 
+       perfect choice for your conferences, retreats, parties or any other event.</p>
+       <a href="#" class="view-facility-link">View Facilities</a>
+       <a href="#" class="book-event-link">Book Your Event</a>
+    </div>
+    <div class="about-images">
+        <img src="images/conference-iii.jpg" alt="">
+        <img src="images/guest-room.jpg" alt="">
+        <img src="images/restaurant.jpg" alt="">
+        <img src="images/swimming-pool.jpg" alt="">
+    </div>
     </section>
    <script src="js/scripts.js"></script> 
 </body>
